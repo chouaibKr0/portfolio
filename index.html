@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chouaib Karballa | Software Engineer & AI Researcher</title>
+    <meta name="description" content="Portfolio of Chouaib Karballa - Software Engineer specializing in AI, Machine Learning, Computer Vision, and Quantum Computing Research">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="neural-network" id="neural-canvas"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-text">CK</span>
+                <span class="logo-dot"></span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#research" class="nav-link">Research</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-pulse"></span>
+                <span>Available for Opportunities</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line">Hi, I'm</span>
+                <span class="title-name gradient-text">Chouaib Karballa</span>
+            </h1>
+            <div class="hero-roles">
+                <span class="role-text" id="typed-text"></span>
+                <span class="cursor">|</span>
+            </div>
+            <p class="hero-description">
+                Crafting intelligent systems at the intersection of 
+                <span class="highlight">Software Engineering</span>, 
+                <span class="highlight">Machine Learning</span>, and 
+                <span class="highlight">Computer Vision</span>
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">
+                    <span>View My Work</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <span>Get In Touch</span>
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="5">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Projects</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="2">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Research Papers</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="3">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Years Learning</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="code-window">
+                <div class="window-header">
+                    <div class="window-dots">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <span class="window-title">portfolio.py</span>
+                </div>
+                <pre class="window-code"><code><span class="keyword">class</span> <span class="class-name">Engineer</span>:
+    <span class="keyword">def</span> <span class="function">__init__</span>(<span class="param">self</span>):
+        <span class="param">self</span>.name = <span class="string">"Chouaib Karballa"</span>
+        <span class="param">self</span>.role = <span class="string">"Software & AI Engineer"</span>
+        <span class="param">self</span>.skills = [
+            <span class="string">"Machine Learning"</span>,
+            <span class="string">"Computer Vision"</span>,
+            <span class="string">"Backend Development"</span>,
+            <span class="string">"Quantum Computing"</span>
+        ]
+    
+    <span class="keyword">def</span> <span class="function">solve_problems</span>(<span class="param">self</span>):
+        <span class="keyword">return</span> <span class="string">"Elegant Solutions"</span> <span class="blink">█</span></code></pre>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Introduction</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-frame">
+                        <div class="frame-decoration"></div>
+                        <div class="profile-placeholder">
+                            <i class="fas fa-user-astronaut"></i>
+                        </div>
+                    </div>
+                    <div class="floating-badge education">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Master's Student</span>
+                    </div>
+                    <div class="floating-badge research">
+                        <i class="fas fa-flask"></i>
+                        <span>AI Researcher</span>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3 class="about-heading">
+                        Building the Future with <span class="gradient-text">Code & Intelligence</span>
+                    </h3>
+                    <p class="about-description">
+                        I'm a versatile Computer Science graduate from <strong>USTHB</strong>, currently pursuing my Master's 
+                        in Visual Computing. My expertise spans the entire spectrum from robust backend systems to 
+                        cutting-edge AI solutions.
+                    </p>
+                    <p class="about-description">
+                        My journey has led me through fascinating territories: from engineering ML pipelines for 
+                        <strong>Software Fault Prediction</strong> research (recognized by doctoral committees) to exploring 
+                        the quantum realm through <strong>Quantum Image Processing</strong> research.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Software Engineering</h4>
+                                <p>Backend systems, APIs, and scalable architectures</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>AI & Machine Learning</h4>
+                                <p>ML pipelines, automation, and intelligent systems</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Computer Vision</h4>
+                                <p>Image processing and visual computing research</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-cta">
+                        <a href="/CV - Chouaib KARBALLA.pdf" class="btn btn-outline" download>
+                            <i class="fas fa-download"></i>
+                            <span>Download CV</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Expertise</span>
+                <h2 class="section-title">Technical Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <!-- Languages & Backend -->
+                <div class="skill-category" data-aos="fade-up">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-terminal"></i>
+                        </div>
+                        <h3>Languages & Backend</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
+                        <span class="skill-tag"><i class="fab fa-java"></i> Java</span>
+                        <span class="skill-tag">C/C++</span>
+                        <span class="skill-tag"><i class="fas fa-database"></i> SQL</span>
+                        <span class="skill-tag">Bash</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">Flask</span>
+                    </div>
+                </div>
+
+                <!-- AI & Visual Computing -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>AI & Visual Computing</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag highlight">Scikit-learn</span>
+                        <span class="skill-tag highlight">PyTorch</span>
+                        <span class="skill-tag highlight">OpenCV</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">Computer Vision</span>
+                        <span class="skill-tag">Image Processing</span>
+                    </div>
+                </div>
+
+                <!-- Tools & DevOps -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>Tools & DevOps</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-git-alt"></i> Git/GitHub</span>
+                        <span class="skill-tag"><i class="fab fa-docker"></i> Docker</span>
+                        <span class="skill-tag">Podman</span>
+                        <span class="skill-tag"><i class="fab fa-linux"></i> Linux</span>
+                        <span class="skill-tag">LaTeX</span>
+                        <span class="skill-tag">VS Code</span>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Soft Skills</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Project Management</span>
+                        <span class="skill-tag">Research</span>
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Team Collaboration</span>
+                        <span class="skill-tag">Technical Writing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card featured">
+                    <div class="project-image">
+                        <div class="project-placeholder gradient-bg">
+                            <i class="fas fa-bug"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/chouaibKr0" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Research</span>
+                        </div>
+                        <h3 class="project-title">Software Fault Prediction</h3>
+                        <p class="project-description">
+                            Led a research team investigating ML-based software fault prediction. Built a custom Python ML pipeline 
+                            enabling automated testing and scaling. Recognized by doctoral committee for exceptional methodology.
+                        </p>
+                        <div class="project-meta">
+                            <span><i class="fas fa-calendar"></i> 2025</span>
+                            <span><i class="fas fa-award"></i> Grade: Excellent</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder gradient-bg-alt">
+                            <i class="fas fa-atom"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/chouaibKr0" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Quantum Computing</span>
+                            <span class="tag">Computer Vision</span>
+                            <span class="tag">Research</span>
+                        </div>
+                        <h3 class="project-title">Quantum Image Processing</h3>
+                        <p class="project-description">
+                            Collaborative research exploring quantum algorithms for image representation and manipulation. 
+                            Investigating the intersection of Quantum Computing and Computer Vision.
+                        </p>
+                        <div class="project-meta">
+                            <span><i class="fas fa-calendar"></i> 2025</span>
+                            <span><i class="fas fa-flask"></i> Completed</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder gradient-bg-third">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/chouaibKr0" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Spring Boot</span>
+                            <span class="tag">REST API</span>
+                            <span class="tag">Backend</span>
+                        </div>
+                        <h3 class="project-title">Conference Management Platform</h3>
+                        <p class="project-description">
+                            Architected and deployed a RESTful API for conference scheduling using Spring Boot. 
+                            Full backend solution with robust data management.
+                        </p>
+                        <div class="project-meta">
+                            <span><i class="fas fa-calendar"></i> 2024</span>
+                            <span><i class="fas fa-check-circle"></i> Completed</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder gradient-bg-fourth">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/chouaibKr0" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">C</span>
+                            <span class="tag">Algorithms</span>
+                            <span class="tag">Data Structures</span>
+                        </div>
+                        <h3 class="project-title">Tournament Scheduling Simulator</h3>
+                        <p class="project-description">
+                            Developed a tournament planning simulator using C, focusing on memory management 
+                            and algorithmic efficiency with custom data structures.
+                        </p>
+                        <div class="project-meta">
+                            <span><i class="fas fa-calendar"></i> 2023</span>
+                            <span><i class="fas fa-memory"></i> Low-level</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="projects-cta">
+                <a href="https://github.com/chouaibKr0" class="btn btn-outline" target="_blank">
+                    <i class="fab fa-github"></i>
+                    <span>View All Projects on GitHub</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="section research">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Academia</span>
+                <h2 class="section-title">Research & Education</h2>
+            </div>
+            <div class="research-content">
+                <div class="timeline">
+                    <!-- Education -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker education">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2025 - 2027 (Expected)</span>
+                            <h3>Master in Visual Computing</h3>
+                            <h4>USTHB - University of Science and Technology Houari Boumediene</h4>
+                            <p>Focus: Computer Vision, Machine Learning, Image Processing, AI, Advanced Algorithms</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-marker education">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2022 - 2025</span>
+                            <h3>Bachelor in Computer Science</h3>
+                            <h4>USTHB - Specialization: Software Engineering & Information Systems</h4>
+                            <p>Graduated with focus on machine learning, backend architecture, and system design</p>
+                            <div class="achievement-badge">
+                                <i class="fas fa-star"></i>
+                                <span>Capstone Project Grade: Excellent</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Research -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker research">
+                            <i class="fas fa-microscope"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2025</span>
+                            <h3>Software Fault Prediction Research</h3>
+                            <h4>Project Lead & Research Manager</h4>
+                            <p>Led a research team investigating ML-based software fault prediction; received special commendation from doctoral committee for research methodology</p>
+                            <div class="achievement-badge">
+                                <i class="fas fa-award"></i>
+                                <span>Doctoral Committee Recognition</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker research">
+                            <i class="fas fa-atom"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2025</span>
+                            <h3>Quantum Image Processing Research</h3>
+                            <h4>Collaborative Researcher</h4>
+                            <p>Explored quantum algorithms for image representation and manipulation, investigating the intersection of Quantum Computing and Computer Vision</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications & Awards -->
+                <div class="certifications">
+                    <h3 class="cert-title">
+                        <i class="fas fa-certificate"></i>
+                        Certifications & Recognition
+                    </h3>
+                    <div class="cert-grid">
+                        <div class="cert-item">
+                            <div class="cert-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <div class="cert-content">
+                                <h4>Huawei ICT Certification</h4>
+                                <p>Cloud Computing & AI Tracks</p>
+                                <span class="cert-status">In Progress</span>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <div class="cert-icon">
+                                <i class="fas fa-medal"></i>
+                            </div>
+                            <div class="cert-content">
+                                <h4>Research Recognition</h4>
+                                <p>Special commendation from doctoral committee for research methodology</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Let's Connect</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p class="contact-intro">
+                        I'm always excited to discuss new opportunities, research collaborations, 
+                        or interesting projects. Feel free to reach out!
+                    </p>
+                    <div class="contact-links">
+                        <a href="mailto:karballac@gmail.com" class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">karballac@gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="tel:+213784145974" class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Phone</span>
+                                <span class="contact-value">+213 784 145 974</span>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/chouaib-karballa-490992215/" class="contact-item" target="_blank">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">LinkedIn</span>
+                                <span class="contact-value">Chouaib Karballa</span>
+                            </div>
+                        </a>
+                        <a href="https://github.com/chouaibKr0" class="contact-item" target="_blank">
+                            <div class="contact-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">GitHub</span>
+                                <span class="contact-value">chouaibKr0</span>
+                            </div>
+                        </a>
+                        <a href="https://www.kaggle.com/chouaibkarballa" class="contact-item" target="_blank">
+                            <div class="contact-icon">
+                                <i class="fab fa-kaggle"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Kaggle</span>
+                                <span class="contact-value">chouaibkarballa</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="contact-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Hussein Dey, Algiers, Algeria</span>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <div class="cta-card">
+                        <div class="cta-content">
+                            <h3>Open for Opportunities</h3>
+                            <p>Looking for R&D internships, research collaborations, and challenging hackathons</p>
+                            <a href="mailto:karballac@gmail.com" class="btn btn-primary">
+                                <span>Send a Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </a>
+                        </div>
+                        <div class="cta-decoration">
+                            <div class="decoration-circle"></div>
+                            <div class="decoration-circle"></div>
+                            <div class="decoration-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-text">CK</span>
+                    <span class="logo-dot"></span>
+                </div>
+                <p class="footer-text">
+                    Designed & Built by Chouaib Karballa
+                </p>
+                <div class="footer-social">
+                    <a href="https://github.com/chouaibKr0" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/chouaib-karballa-490992215/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.kaggle.com/chouaibkarballa" target="_blank" aria-label="Kaggle">
+                        <i class="fab fa-kaggle"></i>
+                    </a>
+                    <a href="mailto:karballac@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Chouaib Karballa. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
