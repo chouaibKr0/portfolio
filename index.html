@@ -71,7 +71,7 @@
             </div>
             <div class="hero-stats">
                 <div class="stat-item">
-                    <span class="stat-number" data-count="5">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-number" data-count="7">0</span><span class="stat-suffix">+</span>
                     <span class="stat-label">Projects</span>
                 </div>
                 <div class="stat-divider"></div>
@@ -220,6 +220,7 @@
                         <span class="skill-tag">Django</span>
                         <span class="skill-tag">Spring Boot</span>
                         <span class="skill-tag">Flask</span>
+                        <span class="skill-tag highlight">Unix/IPC</span>
                     </div>
                 </div>
 
@@ -235,15 +236,33 @@
                         <span class="skill-tag highlight">Scikit-learn</span>
                         <span class="skill-tag highlight">PyTorch</span>
                         <span class="skill-tag highlight">OpenCV</span>
-                        <span class="skill-tag">TensorFlow</span>
                         <span class="skill-tag">Machine Learning</span>
                         <span class="skill-tag">Computer Vision</span>
                         <span class="skill-tag">Image Processing</span>
+                        <span class="skill-tag">AI Agents</span>
+                    </div>
+                </div>
+
+                <!-- Algorithms & Theory -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="150">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <h3>Algorithms & Theory</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag highlight">Adversarial Search</span>
+                        <span class="skill-tag highlight">Constraint Programming</span>
+                        <span class="skill-tag">Metaheuristics</span>
+                        <span class="skill-tag">Search Algorithms</span>
+                        <span class="skill-tag">Game Theory</span>
+                        <span class="skill-tag">Compiler Design</span>
                     </div>
                 </div>
 
                 <!-- Tools & DevOps -->
-                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="250">
                     <div class="category-header">
                         <div class="category-icon">
                             <i class="fas fa-tools"></i>
@@ -255,13 +274,13 @@
                         <span class="skill-tag"><i class="fab fa-docker"></i> Docker</span>
                         <span class="skill-tag">Podman</span>
                         <span class="skill-tag"><i class="fab fa-linux"></i> Linux</span>
+                        <span class="skill-tag">Lex/Bison</span>
                         <span class="skill-tag">LaTeX</span>
-                        <span class="skill-tag">VS Code</span>
                     </div>
                 </div>
 
                 <!-- Soft Skills -->
-                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="350">
                     <div class="category-header">
                         <div class="category-icon">
                             <i class="fas fa-users"></i>
@@ -378,14 +397,74 @@
                     </div>
                 </article>
 
-                <!-- Project 4 -->
+                <!-- Project 4 - Mancala AI -->
                 <article class="project-card">
                     <div class="project-image">
                         <div class="project-placeholder gradient-bg-fourth">
-                            <i class="fas fa-trophy"></i>
+                            <i class="fas fa-chess"></i>
                         </div>
                         <div class="project-overlay">
-                            <a href="https://github.com/chouaibKr0" class="project-link" target="_blank">
+                            <a href="https://github.com/chouaibKr0/solving-mancala-game-with-adversarial-search" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Adversarial Search</span>
+                            <span class="tag">Game AI</span>
+                        </div>
+                        <h3 class="project-title">Mancala AI Solver</h3>
+                        <p class="project-description">
+                            Implemented an intelligent game-playing agent using adversarial search algorithms 
+                            (Minimax, Alpha-Beta Pruning) to solve the Mancala board game optimally.
+                        </p>
+                        <div class="project-meta">
+                            <span><i class="fas fa-calendar"></i> 2024</span>
+                            <span><i class="fas fa-brain"></i> Game Theory</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 5 - Knight's Tour CSP -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #8b5cf6 0%, #6366f1 100%);">
+                            <i class="fas fa-chess-knight"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/chouaibKr0/knight_tour-csp" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">CSP</span>
+                            <span class="tag">Metaheuristics</span>
+                        </div>
+                        <h3 class="project-title">Knight's Tour Solver</h3>
+                        <p class="project-description">
+                            Solved the classic Knight's Tour problem using Constraint Satisfaction Programming (CSP) 
+                            and metaheuristic approaches for optimization.
+                        </p>
+                        <div class="project-meta">
+                            <span><i class="fas fa-calendar"></i> 2024</span>
+                            <span><i class="fas fa-puzzle-piece"></i> Optimization</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 6 - Mini Compiler -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #059669 0%, #10b981 100%);">
+                            <i class="fas fa-terminal"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/chouaibKr0/mini-language-compiler" class="project-link" target="_blank">
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>
@@ -393,17 +472,47 @@
                     <div class="project-content">
                         <div class="project-tags">
                             <span class="tag">C</span>
-                            <span class="tag">Algorithms</span>
-                            <span class="tag">Data Structures</span>
+                            <span class="tag">Lex/Bison</span>
+                            <span class="tag">Compilers</span>
                         </div>
-                        <h3 class="project-title">Tournament Scheduling Simulator</h3>
+                        <h3 class="project-title">Mini Language Compiler</h3>
                         <p class="project-description">
-                            Developed a tournament planning simulator using C, focusing on memory management 
-                            and algorithmic efficiency with custom data structures.
+                            Built a compiler for a mini programming language using Lex (lexical analysis) and 
+                            Bison (parsing). Includes lexer, parser, AST generation, and code generation phases.
                         </p>
                         <div class="project-meta">
-                            <span><i class="fas fa-calendar"></i> 2023</span>
-                            <span><i class="fas fa-memory"></i> Low-level</span>
+                            <span><i class="fas fa-calendar"></i> 2024</span>
+                            <span><i class="fas fa-cogs"></i> Low-level</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 7 - Organ Donation System -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #dc2626 0%, #ef4444 100%);">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/chouaibKr0/low-level-organ-donation-management-system" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">C</span>
+                            <span class="tag">Unix/IPC</span>
+                            <span class="tag">Systems Programming</span>
+                        </div>
+                        <h3 class="project-title">Organ Donation Management System</h3>
+                        <p class="project-description">
+                            Low-level Unix system for managing organ donations. Implements IPC mechanisms, 
+                            process synchronization, and concurrency control from scratch.
+                        </p>
+                        <div class="project-meta">
+                            <span><i class="fas fa-calendar"></i> 2024</span>
+                            <span><i class="fas fa-microchip"></i> Systems</span>
                         </div>
                     </div>
                 </article>
@@ -464,10 +573,10 @@
                             <span class="timeline-date">2025</span>
                             <h3>Software Fault Prediction Research</h3>
                             <h4>Project Lead & Research Manager</h4>
-                            <p>Led a research team investigating ML-based software fault prediction; received special commendation from doctoral committee for research methodology</p>
+                            <p>Led a research team investigating ML-based software fault prediction; received special commendation from jury committee for research methodology</p>
                             <div class="achievement-badge">
                                 <i class="fas fa-award"></i>
-                                <span>Doctoral Committee Recognition</span>
+                                <span>Jury Committee Recognition</span>
                             </div>
                         </div>
                     </div>
@@ -494,12 +603,12 @@
                     <div class="cert-grid">
                         <div class="cert-item">
                             <div class="cert-icon">
-                                <i class="fas fa-cloud"></i>
+                                <i class="fab fa-google"></i>
                             </div>
                             <div class="cert-content">
-                                <h4>Huawei ICT Certification</h4>
-                                <p>Cloud Computing & AI Tracks</p>
-                                <span class="cert-status">In Progress</span>
+                                <h4>5-Day AI Agents Intensive Course</h4>
+                                <p>Google & Kaggle - AI Agents development, white papers, and capstone project</p>
+                                <span class="cert-status completed">Completed 2025</span>
                             </div>
                         </div>
                         <div class="cert-item">
@@ -508,7 +617,17 @@
                             </div>
                             <div class="cert-content">
                                 <h4>Research Recognition</h4>
-                                <p>Special commendation from doctoral committee for research methodology</p>
+                                <p>Special commendation from jury committee for research methodology</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <div class="cert-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <div class="cert-content">
+                                <h4>Huawei ICT Certification</h4>
+                                <p>Cloud Computing & AI Tracks</p>
+                                <span class="cert-status">In Progress</span>
                             </div>
                         </div>
                     </div>

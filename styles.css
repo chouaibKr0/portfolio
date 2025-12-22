@@ -1142,6 +1142,11 @@ img {
     margin-top: var(--space-sm);
 }
 
+.cert-status.completed {
+    background: rgba(16, 185, 129, 0.15);
+    color: var(--accent-green);
+}
+
 /* ================================
    Contact Section
 ================================ */
